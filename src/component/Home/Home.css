@@ -1,0 +1,54 @@
+.banner-bg{
+    background-image: url("https://image.freepik.com/free-vector/black-background-with-focus-spot-light_1017-27230.jpg");;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 500px;
+}
+.icon {
+    width: 30px;
+    height: 0px;
+}
+.img-size{
+    width: 350px;
+    height: 350px;
+}
+.font-size{
+    font-family: 'Merriweather', serif;
+}
+.color-orange{
+    color: orange;
+        
+}
+/* .profile-pic{
+    box-shadow: o 1px 0 0 var(--white);
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin: 0 0px 0 100px;
+} */
+.font-typical{
+    /* font-family: 'Petemoss', cursive; */
+    font-family: 'Praise', cursive;
+}
+.profile-pic{
+    box-shadow: 0 3px 0px 0px;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.profile-pic-bg{
+    height: 92%;
+    width: 92%;
+    background-image: url('../../image/profilePic.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.profile-pic-bg:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
