@@ -7,6 +7,7 @@ import {
   Route
 } from "react-router-dom";
 import Menu from './component/Menu/Menu';
+import Footer from './component/Footer/Footer';
 function App() {
   return (
     <BrowserRouter>
@@ -14,9 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}>
           <Route index element={<Home />} />
-
         </Route>
       </Routes>
+      <Footer></Footer>
     </BrowserRouter>
   );
 }

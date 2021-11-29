@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <h1>footer</h1>
+            <p className='text-center'><small><i class="far fa-copyright"></i>All rights reserved by Tahmina Akter </small></p>
         </div>
     );
 };

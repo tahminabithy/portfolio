@@ -39,7 +39,7 @@ const Home = () => {
                                     </div>
                                     <p className='text-info font-size fw-lighter'><small>Development is my passion and I want to move forward with this</small> </p>
                                     <div className='mt-5 pt-3'>
-                                        <button type="button" className="btn btn-outline-light px-4 rounded-pill">Hire Me</button>
+                                        <button id='contact' type="button" className="btn btn-outline-light px-4 rounded-pill">Hire Me</button>
                                         <a href="Tahmina Akter Resume.pdf" download='Resume_Tahmina.pdf'>
                                             <button type="button" className="btn btn-outline-info mx-5 px-4 rounded-pill">Get Resume</button>
                                         </a>
