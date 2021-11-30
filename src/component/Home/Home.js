@@ -5,6 +5,7 @@ import img2 from '../../image/icons8-gmail-48.png'
 import img3 from '../../image/icons8-instagram-48.png'
 import img4 from '../../image/icons8-linkedin-50.png'
 import profile1 from '../../image/profilePic.jpg'
+import AboutMe from '../AboutMe/AboutMe';
 import ContactMe from '../ContactMe/ContactMe';
 import Menu from '../Menu/Menu';
 import Projects from '../Projects/Projects';
@@ -62,6 +63,10 @@ const Home = () => {
                 </div>
 
             </section>
+            <section>
+                <AboutMe></AboutMe>
+            </section>
+
             <section>
                 <Projects></Projects>
             </section>

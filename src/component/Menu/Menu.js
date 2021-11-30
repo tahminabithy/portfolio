@@ -6,9 +6,8 @@ const Menu = () => {
         <div>
             <Navbar bg="dark" variant="dark">
                 <Container  >
-
-                    <Navbar.Brand className='font-size' href="#home">TA</Navbar.Brand>
-                    <Nav className="me-auto font-size">
+                    <Navbar.Brand className='font-size font-typical text-info' href="#home">PORTFOLIO</Navbar.Brand>
+                    <Nav className="ms-auto font-size">
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#projects">Projects</Nav.Link>
                         <Nav.Link href="#contact">Contact</Nav.Link>
